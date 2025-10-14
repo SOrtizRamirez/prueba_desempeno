@@ -28,4 +28,4 @@ const deleteAddressService = async ( id: number) => {
 };
 
 
-export { getAddressService, addAddressService, getAddressByIdService, updateAddressService, deleteAddressService, getaddressByCedulaServices };
+export { getAddressService, addAddressService, getAddressByIdService, updateAddressService, deleteAddressService };

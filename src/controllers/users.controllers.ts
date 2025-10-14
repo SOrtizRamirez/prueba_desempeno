@@ -6,8 +6,6 @@ import {
     updateUserService,
     deleteUserService,
     loginService } from '../services/users.services.ts'
-import {getStoryByClient} from "../services/clients.services";
-
 
 export const getUsersController = (req:Request, res:Response) => {
     try{

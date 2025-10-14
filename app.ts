@@ -5,8 +5,8 @@ import usersRouter from './src/routes/users.routes.ts';
 import ordersRouter from "./src/routes/orders.routes.ts";
 import clientsRouter from "./src/routes/clients.routes.ts";
 import productsRouter from "./src/routes/products.routes.ts";
-import addressesRouter from "./src/routes/addresses.routes";
-import warehousesRouter from "./src/routes/warehouses.routes";
+import addressesRouter from "./src/routes/addresses.routes.ts";
+import warehousesRouter from "./src/routes/warehouses.routes.ts";
 
 const app = express();
 
