@@ -59,10 +59,7 @@ Orders.init(
         },
         status:{
             type: DataTypes.STRING,
-            allowNull: false,
-            validate: {
-                isIn: ['pendiente', 'en_tránsito', 'entregado']
-            }
+            allowNull: false
         },
         quantity:{
             type: DataTypes.NUMBER,

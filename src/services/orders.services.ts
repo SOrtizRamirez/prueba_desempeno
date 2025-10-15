@@ -23,7 +23,7 @@ const addOrdersService = async (role: string | null,
     if(stock.stock < quantity ) {
         return null;
     } else {
-        const updatedStock = await stock.update({ where: { id: productId, stock: (stock - quantity) } });
+        const updatedStock = await stock.update({ stock: (stock.stock - quantity) });
         const order = await Orders.create({ clientId, productId, warehouseId, addressId, status, quantity})
         return [updatedStock, order]
     }
